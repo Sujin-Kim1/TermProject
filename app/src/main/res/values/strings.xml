@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TermProject</string>
+    <string name="ex_gangnam_hongdae">ex) Gangnam, Hongdae</string>
+    <string name="a">찾고 싶은 위치를 검색해주세요.</string>
 </resources>

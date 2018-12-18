@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pick1Activity"
+    >
+
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="233dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="233dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/pick10"
+            android:id="@+id/pick1_image"/>
+
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|left"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            android:layout_marginLeft="4dp"
+            />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|right"
+            android:rotation="180"
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            android:layout_marginRight="10dp" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnMethod"
+        android:text="더보기"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </ScrollView>
+
+</LinearLayout>
