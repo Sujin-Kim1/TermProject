@@ -42,19 +42,6 @@
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="16dp" />
 
-        <ImageButton
-            android:id="@+id/gpsButton"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@null"
-            android:onClick="goToNearActivity"
-            android:tint="@android:color/holo_red_light"
-            app:srcCompat="@android:drawable/ic_menu_mylocation"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="312dp"
-            tools:layout_editor_absoluteY="9dp"
-            tools:tint="@android:color/holo_red_light" />
     </LinearLayout>
 
     <LinearLayout
@@ -63,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchInput">

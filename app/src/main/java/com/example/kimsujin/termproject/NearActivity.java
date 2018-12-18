@@ -11,4 +11,5 @@ public class NearActivity extends AppCompatActivity {
         setContentView(R.layout.activity_near);
         setTitle("내주변 맛집");
     }
+
 }

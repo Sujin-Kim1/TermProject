@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -19,9 +20,10 @@ import java.net.URLConnection;
 
 public class Pick2Activity extends AppCompatActivity {
 
-    TextView text;
-    ImageButton prevButton, nextButton;
-    ImageView imageView;
+    private TextView text;
+    private ImageButton prevButton, nextButton;
+    private ImageView imageView;
+    private ToggleButton toggleButton;
 
     final int Pick2[] = {R.drawable.pick10, R.drawable.pick11, R.drawable.pick12, R.drawable.pick13};
     int index = 0;
@@ -33,10 +35,11 @@ public class Pick2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick2);
         setTitle("얼큰한 해장국");
-        
+        toggleButton = (ToggleButton)findViewById(R.id.toggle1);
+
         // 가게 이름과 정보 입력할 text 변수 생성
         text = (TextView)findViewById(R.id.details);
-
+        // 이미지 슬라이드
         prevButton = (ImageButton)findViewById(R.id.prevButton);
         nextButton = (ImageButton)findViewById(R.id.nextButton);
         imageView = (ImageView)findViewById(R.id.pick2_image);
@@ -60,12 +63,17 @@ public class Pick2Activity extends AppCompatActivity {
             }
         });
 
-
     }
 
     public void btnMethod(View view) {
-        NetworkThread thread = new NetworkThread();
-        thread.start();
+        if (!toggleButton.isChecked()) {
+            NetworkThread thread = new NetworkThread();
+            thread.start();
+            toggleButton.setChecked(false);
+        } else {
+            text.setText("");
+            toggleButton.setChecked(true);
+        }
     }
 
     class NetworkThread extends Thread {

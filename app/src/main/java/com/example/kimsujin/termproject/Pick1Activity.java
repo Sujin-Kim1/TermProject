@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -24,8 +25,10 @@ public class Pick1Activity extends AppCompatActivity {
     ImageView imageView;
 
     final int Pick1[] = {R.drawable.pick00, R.drawable.pick01, R.drawable.pick02, R.drawable.pick03};
-    int index = 0;
-    int maxIndex = Pick1.length;
+    private int index = 0;
+    private int maxIndex = Pick1.length;
+    private ToggleButton toggleButton;
+
 
 
     @Override
@@ -33,6 +36,7 @@ public class Pick1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick1);
         setTitle("감성 넘치는 카페");
+        toggleButton = (ToggleButton)findViewById(R.id.toggle2);
 
         // 가게 이름과 정보 입력할 text 변수 생성
         text = (TextView)findViewById(R.id.details);
@@ -64,8 +68,14 @@ public class Pick1Activity extends AppCompatActivity {
     }
 
     public void btnMethod(View view) {
-        NetworkThread thread = new NetworkThread();
-        thread.start();
+        if (!toggleButton.isChecked()) {
+            NetworkThread thread = new NetworkThread();
+            thread.start();
+            toggleButton.setChecked(false);
+        } else {
+            text.setText("");
+            toggleButton.setChecked(true);
+        }
     }
 
     class NetworkThread extends Thread {
