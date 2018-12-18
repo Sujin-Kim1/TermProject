@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToNearActivity(View v) {
-        Intent intent = new Intent(getApplicationContext(), NearActivity.class);
+    public void goToRankingActivity(View v) {
+        Intent intent = new Intent(getApplicationContext(), RankingActivity.class);
         startActivity(intent);
     }
 }
