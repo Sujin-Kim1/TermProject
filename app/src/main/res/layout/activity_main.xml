@@ -155,13 +155,33 @@
             android:padding="10dp"
             android:text="내주변 맛집"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
-
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서울특별시 성북구 정릉동 정릉로 77"/>
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:onClick="goToNearActivity"
-            android:visibility="visible" />
+            android:onClick="goToNearActivity">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/nearby0" />
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/nearby1"/>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/nearby2"/>
+        </LinearLayout>
 
     </LinearLayout>
 
