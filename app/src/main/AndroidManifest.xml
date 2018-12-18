@@ -3,6 +3,7 @@
     package="com.example.kimsujin.termproject">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -20,8 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Pick2Activity" />
-        <activity android:name=".NearActivity" />
-        <activity android:name=".Pick1Activity"></activity>
+        <activity android:name=".RankingActivity" />
+        <activity android:name=".Pick1Activity" />
+        <activity android:name=".DetailActivity"/>
     </application>
 
 </manifest>

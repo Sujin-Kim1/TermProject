@@ -56,7 +56,7 @@
                                         android:id="@+id/imageView21"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank11" />
+                                        app:srcCompat="@drawable/rank01" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -68,7 +68,8 @@
                                             android:id="@+id/name21"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address21"
@@ -97,7 +98,7 @@
                                         android:id="@+id/imageView22"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank12" />
+                                        app:srcCompat="@drawable/rank02" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -109,7 +110,8 @@
                                             android:id="@+id/name22"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address22"
@@ -138,7 +140,7 @@
                                         android:id="@+id/imageView23"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank13" />
+                                        app:srcCompat="@drawable/rank03" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -150,7 +152,8 @@
                                             android:id="@+id/name23"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address23"
@@ -197,7 +200,7 @@
                                         android:id="@+id/imageView11"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank01" />
+                                        app:srcCompat="@drawable/rank21" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -209,7 +212,8 @@
                                             android:id="@+id/name11"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address11"
@@ -238,7 +242,7 @@
                                         android:id="@+id/imageView12"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank02" />
+                                        app:srcCompat="@drawable/rank22" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -250,7 +254,8 @@
                                             android:id="@+id/name12"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address12"
@@ -279,7 +284,7 @@
                                         android:id="@+id/imageView13"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank03" />
+                                        app:srcCompat="@drawable/rank23" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -291,7 +296,8 @@
                                             android:id="@+id/name13"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address13"
@@ -339,7 +345,7 @@
                                         android:id="@+id/imageView31"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank21" />
+                                        app:srcCompat="@drawable/rank11" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -351,7 +357,8 @@
                                             android:id="@+id/name31"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address31"
@@ -380,7 +387,7 @@
                                         android:id="@+id/imageView32"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank22" />
+                                        app:srcCompat="@drawable/rank12" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -392,7 +399,8 @@
                                             android:id="@+id/name32"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address32"
@@ -421,7 +429,7 @@
                                         android:id="@+id/imageView33"
                                         android:layout_width="200dp"
                                         android:layout_height="100dp"
-                                        app:srcCompat="@drawable/rank23" />
+                                        app:srcCompat="@drawable/rank13" />
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
@@ -433,7 +441,8 @@
                                             android:id="@+id/name33"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                                            android:textColor="@android:color/black" />
 
                                         <TextView
                                             android:id="@+id/address33"

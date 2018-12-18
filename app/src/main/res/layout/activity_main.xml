@@ -133,6 +133,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:onClick="goToRankingActivity"
         android:orientation="vertical">
 
         <TextView
@@ -142,33 +143,36 @@
             android:padding="10dp"
             android:text="맛집랭킹"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="랭킹을 보려면 이곳을 눌러보세요!"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="10dp"
+            android:onClick="goToRankingActivity"
+            android:text="랭킹을 보려면 이곳을 눌러보세요!" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="goToNearActivity">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
-                android:src="@drawable/nearby0"/>
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                android:src="@drawable/nearby1"/>
+                android:src="@drawable/nearby0" />
 
             <ImageView
                 android:layout_width="130dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
-                android:src="@drawable/nearby2"/>
+                android:src="@drawable/nearby1" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/nearby2" />
         </LinearLayout>
 
     </LinearLayout>
